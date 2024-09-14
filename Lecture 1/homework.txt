@@ -1,0 +1,39 @@
+Question 1
+Simple interest
+
+Input the Principal amount(P), rate(R), time(T).
+SI=(P*R*T)/100
+Print SI
+Exit
+
+Question 2
+Max of 2 numbers 
+
+Input the numbers a and b
+if  a>b
+    print a 
+else
+    print b
+Exit
+
+Question 3
+Factorial
+
+Input the number a
+f=1,i=1
+while i<=a
+      f=f*i 
+      i++
+print f 
+Exit 
+
+Question 4
+Check driving license
+
+Input the age a 
+if a<18
+   print not eligible
+else 
+   print eligible 
+Exit
+      
