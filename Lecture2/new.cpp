@@ -3,6 +3,6 @@ using namespace std;
 
 int main()
 {
-    cout << "My name is Dhruv Gupta.";
+    cout << "My name is \nDhruv \nGupta.";
     return 0;
 }
