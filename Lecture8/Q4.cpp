@@ -5,19 +5,17 @@ int main(){
     int n;
     cin>>n;
     int arr[n];
-    int a=0;
     cout<<"Enter the elements of the array"<<endl;
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    for(int i=0; i<n/2;i++){
-        a=arr[i];
-        arr[i]=arr[n-i-1];
-        arr[n-i-1]=a;
-    }
-    cout<<"The updated array is"<<endl;
+    cout<<"The unique elements are"<<endl;
     for(int i=0;i<n;i++){
-        cout<<arr[i]<<" ";
+        for(int j=i+1;j<n;j++){
+            if(arr[i]!=arr[j]){
+                cout<<arr[i]<<endl;
+            }
+        }
     }
     return 0;
 }
