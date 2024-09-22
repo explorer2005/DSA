@@ -1,0 +1,7 @@
+leetcode 136
+n^n=0  &   n^0=0   (XOR bitwose operator)  (thinking from 4+2+1-1-2=4)
+
+total no of sub arrays = n*(n+1)/2
+
+kadanes in leetcode 53
+in pair sum use 2 pointer approach as the array is already sorted.

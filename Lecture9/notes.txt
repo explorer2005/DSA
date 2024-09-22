@@ -1,0 +1,16 @@
+STL=standard template library
+vectors are dynamic that is size can be changed where as not in arrays
+fo using vectors include using<vector>
+use for each loop i.e. for(data_type a: vector name) here not the index but the valueson each index will be printed
+vector.size() is used to get the size of the vector
+vector.push_back() is used to add something in the end of the vector
+vector.pop_back() is used to remove something from the back of the vector by default last wala delete hoga
+vector.front() and vector.back() is used to return the first and last value of the vector respectively 
+vector.at[index no] is used to return the value at that index 
+static allocation at compile time and dynamic allocation in run time 
+static memory allocation in stack and dynamic in heap
+vector has 2 properties size means no elements tored presently and capacity means how many it can store as everytime if spaceisless in ther vector the older vector got doubled
+
+There is an issue in the logic of the revVector function. Specifically, the variable e is set to vec.size() but vec.size() returns the number of elements in the vector, which is one more than the index of the last element (since indexing is zero-based). This causes an out-of-bounds access during the call to swap().
+You should set e = vec.size() - 1 to point to the index of the last element of the vector, as arrays and vectors are zero-indexed.
+
