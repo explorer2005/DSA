@@ -5,3 +5,7 @@ total no of sub arrays = n*(n+1)/2
 
 kadanes in leetcode 53
 in pair sum use 2 pointer approach as the array is already sorted.
+
+moore's in leetcode 169
+frequency hamesha zyada ki max hi hogi agar kam walo ki frequency ko decrease bhi kar dia to
+
