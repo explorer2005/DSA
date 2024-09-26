@@ -8,3 +8,8 @@ Arrays are always passed by reference as the change can be seen in main function
 
 in a n ddecimal  number maximum binaru digits are logn (base 2)+1
 
+in pass by reference we can pass by pointer so we need to change *with same name and we can also pass with alias in which &different name.
+
+Arrays are termed as constant pointers 
+
+while arithmetic operations in pointers the value equal to the bit of the type of variable is added or subtracted 
