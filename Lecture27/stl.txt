@@ -1,0 +1,46 @@
+deque is double eneded queue 
+from both sides operations can be performed that is both front and back 
+
+list is internally doubly linked list and deque is internally a duynamic array 
+inlist random access is not availale but available in the deque
+
+pair is used when we want to take 2 values together .
+syntax pair<int, int>
+
+push_back is just used when we want to insert an already made pair
+whereas emplace back is used to make in place object and insert 
+emplace is a little faster than push 
+
+stack is last in first out
+queue is first in first out 
+priority queue is a complete binary tree 
+largest value is highest priority 
+popo bhi priority order ma hoga 
+for getting small first declare priority queue in following synatx 
+priority_queue<int,vector<int>,greater<int>> q;
+its basically a functor that is function object 
+
+in priority queue 
+push,emplace and pop has tc of o(log n)
+in rest its o(1)
+
+map is used for a key and value in which key is always unique 
+synatx   map<type1,type2> map_name;
+map output syntax is for each lopp and then syntax of pair stl
+that is
+for(auto p:m){
+    cout<<p.first<<" "<<p.second<<endl;
+}
+map also sort data itself in ascending order 
+count returns the number of instances with a particular key
+in multi map multiple keys can be there and we cant use square bracket we have have to add using insert 
+unordered map keep the data in an unordered manner no sorting
+
+map is a self binary tree so insert erase and count have tc of log(n)
+whereas in unordered map insert,  erase and count has tc of 0(1)
+
+in set the number can be stored only once if same is given its neglected even its not counted in the size also 
+output also comes in only sorted manner
+set is also a self balanced tree so it has a tc of logn
+In lowerbound if we pit a number and its not there then the number closest to it will be printed.
+

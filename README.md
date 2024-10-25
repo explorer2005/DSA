@@ -27,3 +27,43 @@ In rotated array check wether to search in right or left and one part will be so
 
 in binary search first find out s and e and then apply while loop and find mid and then check the required condition if found correct then thats the answer otherwise find the ways to go to the ans in a repeated manner. 
 
+in bubble sort n-1 loops run and large isshifted to back time complexity is o(n^2) isma in short bada ko piche bhejo 
+
+in selection sort runs n-1 times and inner loop from i+1 to n and shortest ko aga puch karo remaining ma se dhundka  tc is o(n^2);
+
+in insertion sort hum assume karta haan some part (first element) is sorted and usma element ghusana ki koshish karta haan tc is O(n^2).
+
+STL is for standard template library 
+
+vector is more dynamic as compared to array for it include vector
+vector ka size always doubles in next jaisa 2 ka baad kuch pushback kia to 4 ho jaiga and so on 
+
+vector.front() and vector.back() is used to get first and last element 
+vector<int> vec(3,10) means 3 elements with all the positions value as 10 
+vec2(vec1) same values in vect2 as 1
+all these workin tc o(1)
+
+erase and insert has o(n)
+vec.erase(vec.begin()+no of index at which the elemet is to be erased)
+(vec.erase(a,b)) a tpo b all get deleted 
+erase changes only size not capacity 
+ vector.insert(position,val) is used to insert the element inbetween 
+empty is used to check whether the vector is empty or not 
+
+*=dereference operator 
+* gives the value 
+vec.end() pointsnoton last element rather its the next ofit 
+iterator is used to point from one side either begin or end for end use rbegin 
+syntax is vector<int>::iterator name
+for(name=vec.begin(); name!=vec.end(); name++){};
+iterators are basically pointer * operator is used to get the value at that particular iterator
+
+rather than   vector<int>::reverse_iterator it; directly write auto inside  for loop only 
+
+
+
+ 
+
+
+
+

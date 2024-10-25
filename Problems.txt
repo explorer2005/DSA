@@ -22,6 +22,15 @@ leetcode 540
 think of corner cases and middle right and left 
 but giving runtime error
 
+leetcode 75
+directly cpp has inbuilt sort function in which begining and ending elemnt is passed and array is passed.
+in built function has tc of o(nlogn)
+optimised:- count number of different elements and just put them 
+more optimised:- dutch national flag algo
+3 pointer approach 0 1 2 take as low mid and high, low and mid at 0 and high at n-1 and sort 
+
+
+
 
 
 
