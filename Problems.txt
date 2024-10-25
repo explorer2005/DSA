@@ -9,3 +9,19 @@ in pair sum use 2 pointer approach as the array is already sorted.
 moore's in leetcode 169
 frequency hamesha zyada ki max hi hogi agar kam walo ki frequency ko decrease bhi kar dia to
 
+leetcode 238
+use preffix and suffix approach for getting the product of the other elements in the array.
+
+leetcode11
+use 2 pointer approach 
+
+leetcode 33
+use left or right binary search
+
+leetcode 540
+think of corner cases and middle right and left 
+but giving runtime error
+
+
+
+
