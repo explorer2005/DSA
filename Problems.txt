@@ -29,6 +29,21 @@ optimised:- count number of different elements and just put them
 more optimised:- dutch national flag algo
 3 pointer approach 0 1 2 take as low mid and high, low and mid at 0 and high at n-1 and sort 
 
+leetcode 1910
+The str.find(to be searched) provides the index where the substring first exists and if not then gives an invalid output 
+str.erase(start,end) is used to remove the substring and the end is basically the length of the substring to be searched 
+
+leetcode 567 
+the total number of permutations can be checked by storing the frequency of each letter and using the window approach 
+
+leetcode 151
+first reverse the whole sentence then reverse the each word and then take the new string and add with space the reversed word and then in final answer remove the first space
+
+leetcode 443
+to_string(count) is used to convert anything to the string 
+string can be resized using char.resize(size of the new)
+
+
 
 
 

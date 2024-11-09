@@ -60,9 +60,21 @@ iterators are basically pointer * operator is used to get the value at that part
 
 rather than   vector<int>::reverse_iterator it; directly write auto inside  for loop only 
 
+in a string its necessary to declare the size of the string 
+for entering a sentence with the space we have to use cin.getline(str,len,delim?);
+delim is used to limit the input at a particular character 
+to get the input of a string with space with in built string library we have to use getline(cin,string name);
+in inbuilt string the direct function for reversal is reverse(stringname.begin(),stringname.end());
 
+tolower is used to convert the uppercasse into the lowercase 
 
- 
+log10(number)+1 directly gives the number of digits in the number 
+armstrong number is that in which the sum of cube of each individual digit is equal to the whole number 
+short way to find the gcd is euclids if a>b so gcd(a%b,b) and else gcd(a,b%a)
+lcm*hcf=a*b;
+(x+y)%m=x%m+y%m;
+(x-y)%m=x%m-y%m;
+(x*y)%m=x%m*y%m;
 
 
 
