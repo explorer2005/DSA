@@ -77,5 +77,11 @@ lcm*hcf=a*b;
 (x*y)%m=x%m*y%m;
 
 
+for optimisation in 2d matrix in finding the sum 
+remove j just use i 
+syntax for initialisizing the 2d vectors vector<vector<tyoe>>name
+matrix.size() = no of rows
+matrix[i].size() = no of columns 
+
 
 

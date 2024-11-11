@@ -43,6 +43,8 @@ leetcode 443
 to_string(count) is used to convert anything to the string 
 string can be resized using char.resize(size of the new)
 
+leetcode 54
+in spiral take 4 variablesas srow, erow, scol, ecol and remember to put a check for repeatation in odd case and codition for while loop shoud be < and =
 
 
 
