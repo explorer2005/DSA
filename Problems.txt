@@ -47,7 +47,20 @@ leetcode 54
 in spiral take 4 variablesas srow, erow, scol, ecol and remember to put a check for repeatation in odd case and codition for while loop shoud be < and =
 
 
+leetcode 1
+the best way to find anything is stroingg it in the unordered map and then using the find
 
+leetcode 2965
+since once value is to be found which is repeated so use sets and for not present number use that expectedsum-actualsum++repeated value;
 
+leetcode 287
+bad approach is search in set if matched then return the ans;
+better approach use karni ha as given that no extra space to be used that no unordered map and sets can be used 
+use slow fast approach that is cosider the array as a linked list in which index is node and the values are acting as next nodes
+
+leetcode 15
+while putting the triplet in the set always sort it so that duplicate cant be stored again 
+and we use set only here not unordered set as unordered ka lia custom hash likhna padega isilia
+better approach is find a and b with loop then c=-(a+b) and find it inside the loop using set or maps 
 
 

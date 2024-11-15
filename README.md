@@ -83,5 +83,6 @@ syntax for initialisizing the 2d vectors vector<vector<tyoe>>name
 matrix.size() = no of rows
 matrix[i].size() = no of columns 
 
-
+unordered set and unordered map are very optimised as they have tc of o(1) therefore they are frequently used in dsa 
+lower bound  and upper bound does not exists for unordered sets as the data is not sorted 
 
