@@ -86,3 +86,15 @@ matrix[i].size() = no of columns
 unordered set and unordered map are very optimised as they have tc of o(1) therefore they are frequently used in dsa 
 lower bound  and upper bound does not exists for unordered sets as the data is not sorted 
 
+time complexity of recuresion relation is calculated by
+no of recursive calls*work in each call 
+space complexity of a recursive relation is 
+depth of call stack * memory occupied in each block 
+
+time complexity of a recursive fibonacci series is 1.618^n
+
+forprinting all the subsets of an array, take complete set and empty and at each level of recursion put choice for each element whether to be present or not 
+
+            allSubsets.push_back({ans});
+            in this line automatically the ans is pushed in vector as a vector 
+            
