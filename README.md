@@ -97,4 +97,9 @@ forprinting all the subsets of an array, take complete set and empty and at each
 
             allSubsets.push_back({ans});
             in this line automatically the ans is pushed in vector as a vector 
-            
+
+Quick sort is based on pivot and partition 
+there is special pivot about which the array is sorted (we will select last as pivot).and recursively call the quick sort for left and right half 
+for partition use the 2 iterators 
+avg tc is nlogn but in worst case its n^2  worst cases are:-pivot is either the smallest or largest element 
+space complexity is o(1)
