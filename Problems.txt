@@ -65,3 +65,6 @@ better approach is find a and b with loop then c=-(a+b) and find it inside the l
 
 leetcode 90
 Here first sort the given array so that if once the element is excluded and next time again the same eleemnt is included then repition occur so we have to remove that subset 
+
+count inversion 
+optiomal approach is using merge sort 
