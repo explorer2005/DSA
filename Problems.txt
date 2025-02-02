@@ -81,3 +81,12 @@ recurscive calls to up, down, left, right
 in backtrcking again put false on the visited cells which are marked as true 
 optimisation:-
 visited alag se na banakar rather original board pa hi -1 dal denge aur bact trak ka time1 kar denge 
+
+Leetcode 39
+in this question there can be 3 case element is included once, more than once or excluded;
+so for once, reci=ursion condition will be called by increasing the index by 1 and then decreasing the target(its necessary to decrease the target and use it as a parameter because otherwise it will goin an infinite loop as its very difficult to know the condition where to stop),in case of more than once i remains the same and in case of exclusion, first do backtrack by popping the number out of the array and then increasing the index of the array.
+base conditions are:- target==0 ans pushbackreturn, if target<0 or i==0 then just return. 
+but here many cases will be repeated so we need to track different only and for that we can create a set 
+
+Leetcode 131
+here partitions are made and thr right part is check if palindrome or not of not then nothing just change the partition, ifyes then stor the partition and givethe recursive call for partitions in the right part of the string, while backtracking just pop back the already included part, base case is when we reach the empty string.

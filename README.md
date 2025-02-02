@@ -105,3 +105,8 @@ avg tc is nlogn but in worst case its n^2  worst cases are:-pivot is either the 
 space complexity is o(1)
 
 in linked list we cannot access any value drectly we have to traverse through the head node 
+
+merge sort is basically divide and conquer and works on the principle of recursion 
+step 1:- division into 2 equal parts repeatedly
+step 2:- merge the parts to create a sorted array 
+for merging we will use 2 pointers, one will point to the start of left half and the other will point to the right half 
