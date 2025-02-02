@@ -103,3 +103,5 @@ there is special pivot about which the array is sorted (we will select last as p
 for partition use the 2 iterators 
 avg tc is nlogn but in worst case its n^2  worst cases are:-pivot is either the smallest or largest element 
 space complexity is o(1)
+
+in linked list we cannot access any value drectly we have to traverse through the head node 

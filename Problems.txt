@@ -68,3 +68,16 @@ Here first sort the given array so that if once the element is excluded and next
 
 count inversion 
 optiomal approach is using merge sort 
+
+leetcode 51
+first convert prroblem to placing the queen row by row after that check whthere its safetoplace and while backtracking place . back and once row reaches last, pushback that in ans and for is safe check horizontally, vertically, left diagonal only above that as we are placing the queen rowwise and similarly for right diagonal 
+
+leetcocde 37
+for checking is safe check in the row, int the column, int box, for checking in the box find the nearest startcand start row, its found by (row/3)*3 or (col/3)*3; and create helper function to put the digits, if row==9 return true and for next col, if col==9 its 0 and next row is row +1 
+
+Rate in a maze; 
+first of base case are row and col should be less then max, row and col should be grater than 0, the cell should be unvisited and should be not be equal to 0,
+recurscive calls to up, down, left, right
+in backtrcking again put false on the visited cells which are marked as true 
+optimisation:-
+visited alag se na banakar rather original board pa hi -1 dal denge aur bact trak ka time1 kar denge 
