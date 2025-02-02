@@ -100,6 +100,9 @@ forprinting all the subsets of an array, take complete set and empty and at each
 
 Quick sort is based on pivot and partition 
 there is special pivot about which the array is sorted (we will select last as pivot).and recursively call the quick sort for left and right half 
+step:1 pick the pivot
+step:2 partition
+step:3 quick sort for the left and right half 
 for partition use the 2 iterators 
 avg tc is nlogn but in worst case its n^2  worst cases are:-pivot is either the smallest or largest element 
 space complexity is o(1)
@@ -109,4 +112,8 @@ in linked list we cannot access any value drectly we have to traverse through th
 merge sort is basically divide and conquer and works on the principle of recursion 
 step 1:- division into 2 equal parts repeatedly
 step 2:- merge the parts to create a sorted array 
-for merging we will use 2 pointers, one will point to the start of left half and the other will point to the right half 
+for merging we will use 2 pointers, one will point to the start of left half and the other will point to the right half
+
+time complexity = total calls * work done in each call
+tc ofmerge sort is n*logn
+sc of merge sort is n
