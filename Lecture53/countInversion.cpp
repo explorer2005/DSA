@@ -7,7 +7,7 @@ int merge(vector<int>&arr,int s,int mid,int e){
     int Inversion=0;
     vector<int> temp;
     while(i<=mid&&j<=e){
-        if(arr[i]<arr[j]){
+        if(arr[i]<=arr[j]){
             temp.push_back(arr[i]);
             i++;
         }

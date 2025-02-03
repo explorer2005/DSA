@@ -117,3 +117,18 @@ for merging we will use 2 pointers, one will point to the start of left half and
 time complexity = total calls * work done in each call
 tc ofmerge sort is n*logn
 sc of merge sort is n
+
+OOPS:-In cpp by default the attribute is private
+to access the private members we use getters and setters 
+constructor is used for initialisation.
+* is used fordeferencing 
+cpp also have copy constructor here the parameter is passes by reference
+copy can be shallow and Deep--->IMPORTANT;
+dynamic memory allocation sari heap ma hoti ha like jab new keyword etc ka istemal karta haan to shallow copyma isma dikkat ati ha (refer apna college oops tutorial in one shot 51:56)
+Destructor is used to deallocate the memory (automatic destructor removes only static memory for dynamic destructor is to be made)
+During inheritance once parent class and then student class constructor is called 
+and reverse in the destructor
+virtual functions in cpp are runtine polymorphism.
+virtual functions are dynamic in nature, defined with virtual in parent class and overridden in child class 
+Abstraction :- hidding unecessary details done by access modifiers 
+

@@ -71,6 +71,7 @@ inversions are those in which if(arr[i],arr[j])
 so if i<j then arr[i]>arr[j];
 optiomal approach is using merge sort
 ine merge sort multiple inversions can be counted together so if arr[i]>arr[j] so we must increasecount by mid-i+1 as i se mid ke beech bhi j se  inversion form karenge  
+tc=merge sort tc
 
 leetcode 51
 first convert prroblem to placing the queen row by row after that check whthere its safetoplace and while backtracking place . back and once row reaches last, pushback that in ans and for is safe check horizontally, vertically, left diagonal only above that as we are placing the queen rowwise and similarly for right diagonal 
@@ -96,3 +97,9 @@ here partitions are made and thr right part is check if palindrome or not of not
 
 Leetcode 2315
 inside pair kophele false kardo to jabtak first aiga * count jaisa hi ch ="|" ai make insidePair=!insidePair so opposite ban jaiga agar false to true and true to false, in such a way all * without between| will be counted
+
+Leetcode 2596
+here recursive calls are made to all the 8 possiblemove of the knight with expect+1 that is next value if it returns true, its true by making or for all 8 and the base case for false is that when the loimits of r and c and when grid[r][c]!=expect, fortrue is when expect==n*n-1 that is we reached at the last spot .
+tc=8^n^2;
+sc:n^2;
+
