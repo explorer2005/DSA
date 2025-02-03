@@ -130,5 +130,7 @@ During inheritance once parent class and then student class constructor is calle
 and reverse in the destructor
 virtual functions in cpp are runtine polymorphism.
 virtual functions are dynamic in nature, defined with virtual in parent class and overridden in child class 
-Abstraction :- hidding unecessary details done by access modifiers 
+Abstraction :- hidding unecessary details done by access modifiers other way is abstract class which is basically a base class for child classes and it cant be instantiated.
+Anything created with static keyword remains for lifetime till the full program is finished.
+try to explore friend class and friend function 
 
