@@ -134,3 +134,5 @@ Abstraction :- hidding unecessary details done by access modifiers other way is 
 Anything created with static keyword remains for lifetime till the full program is finished.
 try to explore friend class and friend function 
 
+Linked List: -
+linear data structures, dynamically resisable, its not a contiguous memory location 
