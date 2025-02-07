@@ -103,3 +103,18 @@ here recursive calls are made to all the 8 possiblemove of the knight with expec
 tc=8^n^2;
 sc:n^2;
 
+Leetcode 876
+best approach is slowfast pointer approach 
+
+Leetcode 142 
+theere are mainly 3 question:-
+1:=find whether cycle exists or not (use slow fast pointer if equal then yes);
+2:=Detect the starting point of a cycle(so first find whther the cycle exits or not) after that slow=head again , now run a loop until slow=fast by increment of both as 1 only,then the meeting point is the startingpoint of cycle
+3:=Remove cycle, ek prev pointer lo jo fast ki prev value stor karega, jaida hi starting node milta ha second loop ma prev ka next null kardo cycle gayab ho jaigi
+
+Leetcode 21
+userecursion in ll as well when its easy to solvve small problems and give the result back to solve the big problem 
+
+Leetcode 138:
+Step1: Just a simple copy like as usual 
+Step2: Random connection copy to new ll for this use unordered map 
