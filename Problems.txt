@@ -118,3 +118,32 @@ userecursion in ll as well when its easy to solvve small problems and give the r
 Leetcode 138:
 Step1: Just a simple copy like as usual 
 Step2: Random connection copy to new ll for this use unordered map 
+
+Leetcode430
+Flattening a multilevel dll
+use recursion; 3 major parts:
+1:->if child found then Flattening
+2:->find tail
+3:->attach tail to next
+tc o(n)
+
+Leetcode25
+3 steps by recursion:
+1:- whether k nodes present or not
+2:- recursive call for remaining nodes 
+3:- reversing the nodes
+
+Leetcode24
+first check head or its next should not be null,
+first as head and second as head next bith address stored, not first next is recursive for for second kanext and then second ka next is first now 
+
+Leetcode15
+best optimal approach is using two pointers;
+at first sort the vectorso that repetition can be resolved; j as i+1 and k as n-1 so if equal to zero push to vector else j++,k--
+optimisation if arri==arri-1 then continue and similarly for j while  j<k if j==j-i value then j++ again 
+tc:- o(nlogn+n^2)
+sc:-o(unique triplets);
+
+Leetcode18
+2 pointer approach is used like q15 of 3sum
+select first 2 with 2 nested loops and then use 2 pointer approach and then optimise conditions on i,j,k;
