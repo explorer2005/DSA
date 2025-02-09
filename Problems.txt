@@ -147,3 +147,6 @@ sc:-o(unique triplets);
 Leetcode18
 2 pointer approach is used like q15 of 3sum
 select first 2 with 2 nested loops and then use 2 pointer approach and then optimise conditions on i,j,k;
+tc:-o(nlon+n^3)
+sc:-o(unique triplets);
+

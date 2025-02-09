@@ -136,3 +136,6 @@ try to explore friend class and friend function
 
 Linked List: -
 linear data structures, dynamically resisable, its not a contiguous memory location 
+
+stacks is lifo
+refer folder lecture 66 to view implemention of stacks by various methods 
