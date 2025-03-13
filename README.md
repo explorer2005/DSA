@@ -139,3 +139,8 @@ linear data structures, dynamically resisable, its not a contiguous memory locat
 
 stacks is lifo
 refer folder lecture 66 to view implemention of stacks by various methods 
+
+there is a direct syntax to find the greatest element in the vector which is max_element(vector.begin(),vector.end())
+
+📌 Understanding Prefix Sum Approach in Simple Terms
+Let's break it down in the simplest way possible. Imagine you have an array of numbers and you need to repeatedly subtract a value from a given range of indices.

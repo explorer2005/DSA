@@ -150,3 +150,14 @@ select first 2 with 2 nested loops and then use 2 pointer approach and then opti
 tc:-o(nlon+n^3)
 sc:-o(unique triplets);
 
+Next greater element:-1:-right element 2:-greatern then current element 3:-immediately right that why stack is used 
+tc=o(n)
+
+
+2161:- 
+in this the best approach is use the right left and mid and then combine all of them 
+
+stock span:-
+span= max numberof days from today price<=today's price , include current day as well
+
+
