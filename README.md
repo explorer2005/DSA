@@ -144,3 +144,4 @@ there is a direct syntax to find the greatest element in the vector which is max
 
 📌 Understanding Prefix Sum Approach in Simple Terms
 Let's break it down in the simplest way possible. Imagine you have an array of numbers and you need to repeatedly subtract a value from a given range of indices.
+
